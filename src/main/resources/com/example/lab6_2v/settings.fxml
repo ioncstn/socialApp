@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="460.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab6_2v.SettingsController">
+   <children>
+      <Button layoutX="348.0" layoutY="217.0" mnemonicParsing="false" onAction="#switchToLoginScene" text="log out" />
+   </children>
+</AnchorPane>

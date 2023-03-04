@@ -1,0 +1,8 @@
+1,Alex,Alex@gamil.com,asdfasdf
+2,Maria,Mariaionescu@jjjj.com,asdfasdf
+3,Cstnel,Costinion@ymail.com,parola1
+4,Andr,gradinarul@gmail.com,parola2
+6,Dragso,asdf@gamil.com,asdfasdf
+7,Gigel,gigiel@gmail.com,asdfasdf
+8,Adrian,adrian@ymail.com,hhhhhhh
+9,Csotin,aksldjflk@ymail.com,asdkjfs

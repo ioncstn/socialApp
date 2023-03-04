@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab6_2v.LogInController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Label text="Email">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email_field" maxHeight="-Infinity" maxWidth="-Infinity">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label text="Password">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password_field" maxHeight="-Infinity" maxWidth="-Infinity">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="suc" textFill="RED">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Button mnemonicParsing="false" onAction="#checkLogin" text="login">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label text="Don't have an account yet?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Hyperlink onAction="#switchToSignUpScene" text="Sign up" underline="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</VBox>

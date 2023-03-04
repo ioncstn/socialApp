@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<TabPane fx:id="tabPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="750.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab6_2v.MainController">
+  <tabs>
+    <Tab text="friendships">
+        <content>
+            <fx:include fx:id="friendshipPage" source="friendships.fxml" />
+        </content>
+    </Tab>
+    <Tab text="chat">
+        <content>
+            <fx:include fx:id="chatPage" source="chat.fxml" />
+        </content>
+    </Tab>
+
+    <Tab text="settings">
+        <content>
+            <fx:include fx:id="settingsPage" source="settings.fxml" />
+        </content>
+    </Tab>
+  </tabs>
+</TabPane>

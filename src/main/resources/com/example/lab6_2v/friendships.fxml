@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab6_2v.FriendshipsController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="52.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TableView fx:id="friends_table" layoutX="14.0" layoutY="49.0" prefHeight="293.0" prefWidth="264.0">
+               <columns>
+                  <TableColumn fx:id="username_column_friends" prefWidth="129.60000610351562" text="username" />
+                  <TableColumn fx:id="date_column_friends" prefWidth="135.19998779296873" text="friends since" />
+               </columns>
+            </TableView>
+            <Label layoutX="109.0" layoutY="14.0" text="Friends">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TableView fx:id="pending_table" layoutX="462.0" layoutY="49.0" prefHeight="293.0" prefWidth="266.0">
+               <columns>
+                  <TableColumn fx:id="username_column_pending" prefWidth="265.6000122070312" text="username" />
+               </columns>
+            </TableView>
+            <Label layoutX="469.0" layoutY="14.0" text="Pending friend requests">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="500.0" layoutY="371.0" mnemonicParsing="false" onAction="#acceptRequest" text="Accept" />
+            <Button layoutX="637.0" layoutY="371.0" mnemonicParsing="false" onAction="#declineRequest" text="Decline" />
+            <Button layoutX="121.0" layoutY="358.0" mnemonicParsing="false" onAction="#deleteFriend" text="Delete" />
+            <Button layoutX="308.0" layoutY="371.0" mnemonicParsing="false" onAction="#openFriendRequestWindow" text="send friend request" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
