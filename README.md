@@ -13,7 +13,8 @@ the password for your PostgreSQL server and change the Database field to the nam
 
 The final step to make the database work for this project is to add the tables. This is the code for them:
 (you can open a query console inside the IDE at: Database > Select the database you just added > New > Query Console)
-`
+
+```
 CREATE TABLE users(
   id INT PRIMARY KEY,
   username VARCHAR(50),
@@ -38,4 +39,4 @@ CREATE TABLE friendships(
   date TIMESTAMP,
   pending BOOLEAN
 );
-`
+```
